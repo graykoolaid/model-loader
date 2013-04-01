@@ -596,14 +596,14 @@ HRESULT InitDevice()
 	//////////////////////////////////////////////////////////////////////////////////////////////////////
 	vector<const wchar_t *> textures;
 
-	textures.push_back( L"treeleaves.dds" );
-	textures.push_back( L"treelog.dds" );
-	charLoad( "treeblend.fbx", &textures );
+//	textures.push_back( L"treeleaves.dds" );
+//	textures.push_back( L"treelog.dds" );
+//	charLoad( "treeblend.fbx", &textures );
 
 
-	textures.push_back( L"CommandoArmor_DM.dds" );
-	textures.push_back( L"Commando_DM.dds" );
-	charLoad( "bigbadman.fbx", &textures );
+	textures.push_back( L"../assets/Textures/CommandoArmor_DM.dds" );
+	textures.push_back( L"../assets/Textures/Commando_DM.dds" );
+	charLoad( "../assets/Models/bigbadman.fbx", &textures );
 
 	
 	//textures.push_back( L"CommandoArmor_DM.dds" );
